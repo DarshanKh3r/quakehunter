@@ -30,7 +30,7 @@ quakes: [Quake]!
 }
 
   type Quake {
-    id: ID
+    id: ID!
     magnitude: Float
     location: String
     when: String
