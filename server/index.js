@@ -40,7 +40,7 @@ const server = new ApolloServer({
         })
 
         const user = users && users[0] ? users[0] : null;
-    
+            
         return { user };
       },
     typeDefs,

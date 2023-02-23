@@ -46,8 +46,9 @@ quakes: [Quake]!
   }
 
   type Mutation {
+    
     # if false, saving record failed -- check errors
-    saveRecord(recordId: ID!): RecordUpdateResponse!
+    saveRecord(recordId: ID!, location: String): RecordUpdateResponse!
   
     # if false, deleting record failed -- check errors
     deleteRecord(recordId: ID!): RecordUpdateResponse!
